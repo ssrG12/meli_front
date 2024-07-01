@@ -1,0 +1,65 @@
+.containerResults {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow-y: auto;
+  padding-block: 50px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #EBEBEB;
+}
+
+.productContainer {
+  width: 80%;
+  height: auto;
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #FFFFFF;
+  justify-content: space-between;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.rowProduct {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.imageProduct {
+  width: 20%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.columnPrice {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rowNameStore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.checkStore {
+  width: 35px;
+  height: 30px;
+}
+
+.backShipping {
+  border-radius: 5px;
+  padding-inline: 5px;
+  background-color: #1EA651;
+}
+
+.textShipping {
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: bold;
+}

@@ -1,0 +1,50 @@
+.barContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-block: 10px;
+  justify-content: center;
+  background-color: #FAE800;
+}
+
+.imageLogo {
+  width: 70px;
+  height: 50px;
+}
+
+.rowInput {
+  width: 50%;
+  height: 25px;
+  display: flex;
+  margin-left: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  width: 97%;
+  height: 100%;
+  outline: none;
+  padding-inline: 10px;
+  background-color: #FFFFFF;
+  border: 1px solid #666666;
+}
+
+.buttonSearch {
+  width: 3%;
+  height: 110%;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #666666;
+  background-color: #EDEEF1;
+}
+
+.searchIcon {
+  width: 25px;
+  height: 25px;
+}
