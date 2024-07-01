@@ -1,11 +1,12 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 
 const useDetailProduct = () => {
   const params = useParams()
+  const navigate = useNavigate()
 
-  const [info, setInfo] = useState({})
+  const [info, setInfo] = useState<any>({})
 
   useEffect(() => {
     getInfoProduct(params?.id)
@@ -20,8 +21,14 @@ const useDetailProduct = () => {
     }
   }
 
+  const navigateHome = async () => {
+    alert('Has comprado el product')
+    navigate('/')
+  }
+
   return {
-    info
+    info,
+    navigateHome
   }
 }
 
